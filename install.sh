@@ -25,7 +25,7 @@ echo ""
 echo "Which kSuite component would you like to install?"
 echo "1) ksuite-node (Sovereign Kernel / Gateway)"
 echo "2) k-browser    (Sovereign Eye / Vision Agent)"
-read -p "Selection [1-2]: " CHOICE < /dev/tty < /dev/tty
+read -p "Selection [1-2]: " CHOICE < /dev/tty
 
 # 3. Setup Directory
 BASE_DIR="$HOME/ksuite"
